@@ -1,0 +1,11 @@
+.home-button {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 45px;
+    height: 45px;
+    padding: 10px 10px;
+    background: #fff;
+    border-radius: 50%;
+}

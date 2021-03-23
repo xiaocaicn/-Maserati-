@@ -1,0 +1,529 @@
+/* #Resets
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+
+/* #Universal and Default Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    z-index: -999;
+}
+
+/* .hd{
+	height: 75px;
+	width: 100%;
+} */
+a {
+    text-decoration: none;
+}
+
+.nav-container {
+    width: 100%;
+    background-color: #fff;
+}
+
+.ul-reset {
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 200px;
+    margin-bottom: 0;
+    list-style: none;
+    /* height: 320px; */
+}
+
+/* #Navigation Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header {
+    background-color: #fff;
+    /* height: 75px; */
+
+}
+
+nav {
+    background: #fff;
+    font-size: 0;
+    float: left;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+#logo {
+    display: block;
+    width: 110px;
+    height: 55px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin: 15px 70px 5px 70px;
+    padding: 0px;
+    border: 0;
+}
+
+#logo_li {
+    margin: 0;
+}
+
+#droppable_2s {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    /* float: left; */
+}
+
+/* .rtt90 {
+    rotation-point: 50% 50%;
+    rotation: 90deg;
+} */
+
+nav>ul>li {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    float: left;
+}
+
+/* nav>ul>li:first-child {
+    padding-left: 0;
+}
+
+nav>ul>li:last-child {
+    padding-right: 0;
+} */
+nav>ul>li>a {
+    color: #0c2340;
+    display: block;
+    position: relative;
+    padding: 23px 17px;
+    border-bottom: 3px solid transparent;
+}
+
+/* nav>ul>li>a:hover{
+    color: black;
+} */
+.blackA li a {
+    font-size: 17px;
+    height: 20px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.brb3 {
+    border-bottom: 3px solid #333;
+}
+
+.side_a li {
+    width: 40%;
+}
+
+.side_b li {
+    width: 60%;
+}
+
+.side_c li {
+    width: 55%;
+}
+
+.side_pic {
+    width: 200px;
+    height: 100px;
+}
+
+.side_price {
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+.side_price p {
+    font-size: 12px;
+}
+
+.side_more {
+    width: 150px;
+    height: 30px;
+    margin: 0 auto 10px;
+    border: 1px solid #000;
+    border-radius: 5%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.side_pd {
+    background-color: #0c2340;
+    color: #f9fafb;
+}
+
+nav>ul>li:hover>a {
+    color: #0c2340;
+    border-bottom: 3px solid #0c2340;
+}
+
+
+
+/* #Mega Menu Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.mega-menu {
+    background: #f0f0f0;
+    display: none;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+}
+
+.mega-menu h2 {
+    color: #0c2340;
+    margin: 10px;
+}
+
+.mega-menu h3 {
+    color: #0c2340;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.mega-menu ul {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    width: 205px;
+}
+
+.mega-menu ul li {
+    padding: 6px;
+}
+
+.mega-menu.container:nth-child(1) li {
+    padding: 30px;
+    font-size: 17px;
+}
+
+.mega-menu ul:last-child {
+    margin-right: 0;
+}
+
+.mega-menu a {
+    /* color: #333333; */
+    display: block;
+}
+
+
+/* #Droppable Class Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.droppable {
+    position: static;
+}
+
+/* .droppable>a:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    font-size: 12px;
+    padding-left: 6px;
+    position: relative;
+    top: -1px;
+} */
+
+.droppable:hover .mega-menu {
+    display: block;
+}
+
+.right {
+    width: 270px;
+    height: 75px;
+    /* background-color: green; */
+    float: right;
+    position: relative;
+}
+
+.right a {
+    display: block;
+    width: 90px;
+    height: 75px;
+    line-height: 75px;
+}
+
+.dealer {
+    width: 90px;
+    height: 75px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dealer a {
+    font-size: 12px;
+    background-color: #f2f1f0;
+}
+
+.try {
+    width: 90px;
+    height: 75px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 90px;
+}
+
+.try a {
+    font-size: 12px;
+    color: #eceef0;
+    background-color: #0c2340;
+}
+
+.op {
+    opacity: 0;
+}
+
+.search_l {
+    width: 1280px;
+    height: 75px;
+    /* background-color: blue; */
+    float: left;
+    position: absolute;
+    top: 0;
+    right: -1250px;
+}
+
+.search_l a {
+    background-color: #fff;
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+}
+
+#x {
+    background-image: url(../images/ia_100000079.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px 30px;
+}
+
+#searchBar {
+    width: 1087px;
+    height: 40px;
+    float: left;
+    margin: 15px 0;
+    border: 2px solid rgb(4, 190, 20);
+    list-style: none;
+}
+
+.search {
+    width: 90px;
+    height: 75px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 180px;
+}
+
+.search a {
+    background-color: #fff;
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* #Browser Clearfix
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+/* 轮播图 */
+.banner {
+    width: 100%;
+    height: 725px;
+    z-index: 0;
+    position: relative;
+
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.screen ul {
+    display: block;
+    width: 1000%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.screen ul li {
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+.screen ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.screen ul li a img {
+    width: 100%;
+    height: 100%;
+}
+
+#parse {
+    position: relative;
+    display: inline-block;
+    /* margin-right: 9px; */
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    float: left;
+    background: transparent url("../images/index/banner/stop.png") no-repeat 50% 50%;
+    background-size: 100%;
+}
+
+.screen ol {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+.screen ol li {
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.screen ol li.current {
+    background: yellow;
+}
+
+#arr {
+    display: none;
+}
+
+
+#arr span {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    /* background: #000; */
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 40px;
+    color: #fff;
+    opacity: 1;
+    /* border: 1px solid #fff; */
+}
+
+
+#arr #right_arr {
+    right: 5px;
+    left: auto;
+}
+
+.masker {
+    width: 100%;
+    height: 64px;
+    /* background-color: rgba(52, 52, 53, 0.1); */
+    position: absolute;
+    bottom: 40px;
+    color: #e6e6e6;
+    padding: 0 60px;
+}
+
+
+.masker .masker_hd {
+    display: block;
+    float: left;
+    height: 120px;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 64px;
+    position: relative;
+    padding-right: 40px;
+    font-family: Univers47, Microsoft YaHei New;
+}
+
+
+.masker .masker_hd::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: hsla(0, 0%, 100%, .5);
+    right: -1px;
+    top: 0;
+}
+
+.masker_bd {
+    display: block;
+    float: left;
+    height: 64px;
+    line-height: 100px;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.masker button {
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    float: right;
+    margin-top: 15px;
+    font-size: 13px;
+}

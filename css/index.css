@@ -1,0 +1,228 @@
+body {
+  background-color: #f2f1f0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.car-type .car-type-title {
+  padding: 35px 0;
+  text-align: left;
+}
+.car-type .car-type-title h1,
+.car-type .car-type-title p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.car-type .car-type-title h1 {
+  color: #333;
+  font-size: 44px;
+  font-weight: normal;
+}
+.car-type .car-type-title p {
+  color: #444;
+  margin-left: 60px;
+  font-size: 20px;
+}
+.car-type .car-type-content {
+  background-color: #fff;
+  overflow: hidden;
+}
+.car-type .car-type-content .car-type-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 45px 0;
+  text-align: center;
+}
+.car-type .car-type-content .car-type-list li {
+  width: 25%;
+}
+.car-type .car-type-content .car-type-list li h2 {
+  margin-bottom: 30px;
+  color: #000;
+  font-size: 24px;
+  font-weight: normal;
+}
+.car-type .car-type-content .car-type-list li p {
+  color: #000;
+  margin: 15px 0;
+}
+.car-type .car-type-content .car-type-list li img {
+  width: 80%;
+  margin: 35px 0;
+}
+.car-type .car-type-content .car-type-list li .car-price {
+  height: 50px;
+  margin-bottom: 30px;
+}
+.car-type .car-type-content .car-type-list li .car-price span,
+.car-type .car-type-content .car-type-list li .car-price p {
+  color: #333;
+}
+.car-type .car-type-content .car-type-list li .car-price p {
+  margin: 0;
+  font-size: 20px;
+}
+.car-type .car-type-content .car-type-list li .more-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.car-type .car-type-content .car-type-list li .more-message a {
+  display: inline-block;
+  width: 140px;
+  margin: 6px 0;
+  padding: 9px 0;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.car-type .car-type-content .car-type-list li .more-message .personal-set {
+  color: #fff;
+  background: #0c2340;
+}
+.car-type .history {
+  overflow: hidden;
+  background-color: #fff;
+}
+.car-type .history h2 {
+  color: #000;
+  margin-bottom: 25px;
+  text-align: left;
+  font-size: 38px;
+  font-weight: normal;
+}
+.car-type .history .history-image-list {
+  position: relative;
+  height: 500px;
+}
+.car-type .history .history-image-list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 3150px;
+}
+.car-type .history .history-image-list ul li {
+  position: relative;
+  width: 365px;
+  height: 400px;
+  overflow: hidden;
+}
+.car-type .history .history-image-list ul li:hover img {
+  transform: scale(1.2);
+}
+.car-type .history .history-image-list ul li img {
+  height: 100%;
+  margin-left: -42%;
+  transition: all 1.2s;
+}
+.car-type .history .history-image-list ul li .text {
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  color: #fff;
+  font-size: 30px;
+  text-align: left;
+}
+.car-type .history .history-image-list .click-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 150px;
+  margin: 40px auto 0;
+}
+.car-type .history .history-image-list .click-button .circular {
+  width: 13px;
+  height: 13px;
+  border: 1px solid #0c2340;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.car-type .history .history-image-list .click-button .current {
+  background-color: #0c2340;
+}
+.car-type .history .history-image-list #prev,
+.car-type .history .history-image-list #next {
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  filter: blur(30px);
+}
+.car-type .history .history-image-list span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -90px;
+  color: #fff;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  cursor: pointer;
+}
+.car-type .history .history-image-list #prev {
+  left: 0;
+  top: 0;
+  display: none;
+}
+.car-type .history .history-image-list #left-prev {
+  left: -10px;
+}
+.car-type .history .history-image-list #next {
+  right: 0;
+  top: 0;
+  display: block;
+}
+.car-type .history .history-image-list #right-next {
+  right: -10px;
+}
+.book-drive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 370px;
+  text-align: center;
+}
+.book-drive span,
+.book-drive h2,
+.book-drive h4,
+.book-drive a {
+  margin: 3px 0;
+}
+.book-drive span {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  background: url('../images/index/logo/test.png');
+  background-size: 100% 100%;
+}
+.book-drive h2,
+.book-drive h4 {
+  font-weight: normal;
+}
+.book-drive h2 {
+  color: #333;
+  font-size: 42px;
+}
+.book-drive h4 {
+  color: #444;
+  font-size: 18px;
+}
+.book-drive a {
+  display: inline-block;
+  width: 120px;
+  color: #fff;
+  margin-top: 25px;
+  padding: 10px 6px;
+  background-color: #0c2340;
+  border-radius: 3px;
+  font-size: 14px;
+}

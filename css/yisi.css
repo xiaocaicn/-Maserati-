@@ -1,0 +1,277 @@
+body {
+    background-color: #ffffff;
+}
+
+.w {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.Italian {
+    margin: 75px auto;
+    text-align: left;
+}
+
+/* 头部模块 header */
+
+.Italian .header img {
+    width: 100%;
+    height: 700px;
+}
+
+.Italian .header {
+    position: relative;
+}
+
+.Italian .header .text {
+    position: absolute;
+    color: red;
+    left: 60px;
+    top: 70px;
+    z-index: 10;
+    color: #ffffff;
+}
+
+.Italian .header .text .first {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.Italian .header .text .second {
+    font-size: 20px;
+}
+
+/* 故事模块 story */
+
+.Italian .w .story .title {
+    font-size: 42px;
+    color: #000000;
+    margin: 30px 0 10px 0;
+}
+
+.Italian .w p {
+    font-size: 17px;
+    color: #000000;
+}
+
+/* nav模块 */
+
+.Italian .w .nav {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.Italian .w .nav img {
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.Italian .w .nav .one .first:hover img,
+.Italian .w .nav .one .second:hover img,
+.Italian .w .nav .two .first:hover img,
+.Italian .w .nav .two .second:hover img,
+.Italian .w .nav .three .first:hover img,
+.Italian .w .nav .three .second:hover img {
+    transform: scale(1.2);
+}
+
+.Italian .w .nav .first {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.Italian .w .nav .second {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.Italian .w .nav .three .first {
+    width: 452px;
+    height: 452px;
+}
+
+.Italian .w .nav .three .two {
+    width: 420px;
+    height: 236px;
+}
+
+.Italian .w .nav .one,
+.Italian .w .nav .two,
+.Italian .w .nav .three {
+    float: left;
+    width: 32.5%;
+    margin-right: 15px;
+}
+
+.Italian .w .nav .three {
+    margin-right: 0px;
+}
+
+/* 百年模块*/
+
+.Italian .history {
+    margin-top: 100px;
+}
+
+.Italian .history .left {
+    float: left;
+    width: 43%;
+    margin-right: 70px;
+    margin-bottom: 20px;
+}
+
+.Italian .history .left img {
+    width: 100%;
+}
+
+.Italian .history .right {
+    position: relative;
+    float: left;
+    width: 50%;
+    color: #000000;
+    margin-top: 60px;
+}
+
+.Italian .history .right .first {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.Italian .history .right .second {
+    font-size: 20px;
+}
+
+.Italian .history .more img {
+    position: absolute;
+    left: 110px;
+    bottom: -189px;
+    width: 25px;
+    height: 25px;
+}
+
+.Italian .history .more a {
+    position: absolute;
+    left: 0;
+    bottom: -213px;
+    font-size: 16px;
+    color: #000000;
+}
+
+/* 传奇模块 */
+
+.Italian .tale {
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    padding: 60px 0;
+    background-color: #f2f1f0;
+}
+
+.Italian .tale .left {
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-top: 60px;
+    color: #000000;
+}
+
+.Italian .tale .more img {
+    position: absolute;
+    left: 110px;
+    bottom: -113px;
+    width: 25px;
+    height: 25px;
+}
+
+.Italian .tale .more a {
+    position: absolute;
+    left: 0;
+    bottom: -110px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.Italian .tale .left .first {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.Italian .tale .left .second {
+    font-size: 20px;
+}
+
+.Italian .tale .right img {
+    width: 100%;
+}
+
+.Italian .tale .right {
+    float: right;
+    width: 43%;
+}
+
+/* 更多模块 */
+
+.list {
+    margin-top: 50px;
+}
+
+.list .w .title {
+    font-size: 50px;
+    color: #333333;
+}
+
+.list .w ul {
+    margin-top: 10px;
+}
+
+.list .w ul li {
+    position: relative;
+    width: 30%;
+    height: 236px;
+    float: left;
+    margin-right: 15px;
+}
+
+.list .w ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.list .w ul li .text {
+    position: absolute;
+    left: 20px;
+    bottom: 8px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.mask {
+    /* 隐藏遮罩层 */
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.list li:hover .mask {
+    display: block;
+}
+
+/* 返回模块 */
+
+.return .w .text {
+    float: right;
+    margin-top: 15px;
+}
+
+.return .w a {
+    font-size: 18px;
+    color: #333333;
+}
